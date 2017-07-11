@@ -1,11 +1,13 @@
 package com.eqdd.nextinputs;
 
+import java.io.Serializable;
+
 /**
  * 校验器
  * @author 陈小锅 (yoojiachen@gmail.com)
  * @since 1.1
  */
-public interface Verifier {
+public interface Verifier extends Serializable{
 
     /**
      * 执行校验

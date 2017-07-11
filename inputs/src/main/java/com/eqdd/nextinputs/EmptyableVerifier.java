@@ -1,7 +1,5 @@
 package com.eqdd.nextinputs;
 
-import java.io.Serializable;
-
 import static com.eqdd.nextinputs.Texts.isEmpty;
 
 
@@ -10,7 +8,7 @@ import static com.eqdd.nextinputs.Texts.isEmpty;
  *
  * @author 陈小锅 (yoojia.chen@gmail.com)
  */
-public abstract class EmptyableVerifier implements Verifier, Serializable {
+public abstract class EmptyableVerifier implements Verifier {
 
     @Override
     public final boolean perform(String rawInput) throws Exception {
